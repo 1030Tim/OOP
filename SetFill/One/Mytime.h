@@ -1,14 +1,13 @@
+// MyTime.h
 #ifndef MYTIME_H
 #define MYTIME_H
-#include<iostream>
 
-class Mytime{
+class MyTime{
     private:
         int h,m,s;
     public:
-        Mytime();
+        MyTime();
         void setTime(int h, int m, int s);
         void print();
 };
-
 #endif

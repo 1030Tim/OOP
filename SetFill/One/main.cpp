@@ -1,14 +1,15 @@
+// main.cpp
 #include<iostream>
-#include<iomanip>
-#include "Mytime.h"
+#include "MyTime.h"
 using namespace std;
 
 int main(void){
-    Mytime t1;
+    MyTime t1;
     t1.print();
-    // enter h m s
     int h,m,s;
+    // enter the h , m , s
     cin >> h >> m >> s;
     t1.setTime(h,m,s);
     t1.print();
+    return 0;
 }
